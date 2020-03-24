@@ -21,10 +21,4 @@ async function demo() {
   }
   worksops.forEach(ws => htmlLog(ws.place));
 }
-//demo();
-
-var request = require('request');
-request('www.random.org/integers, function (error, response, body) {
-            console.log(response.statusCode);
-            cb(response.statusCode);
-           });
+demo();
